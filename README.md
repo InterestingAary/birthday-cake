@@ -1,9 +1,15 @@
 # 🎂 A Sweet Surprise — Personalized Birthday Cake Gift
 
-Create a personalized birthday surprise and share it as a single link — like gift sites such as
-[giftfeels.com](https://giftfeels.com/birthday-gifts). The **sender** writes their wishes,
-promises and a note, gets a shareable link, and the **receiver** opens it to a full interactive
-celebration: pick a knife, cut the cake, blow out candles, and read a personal letter. 💖
+My personal project: a personalized birthday surprise shared as a single link. The **sender**
+writes their wishes, promises and a note, gets a shareable link, and the **receiver** opens it
+to a full interactive celebration: pick a knife, cut the cake, blow out candles, and read a
+personal letter. 💖
+
+## 🔗 Access the project
+
+You can access the live project here:
+
+**https://interestingaary.github.io/birthday-cake/**
 
 ## ✨ How it works
 
@@ -25,7 +31,7 @@ celebration: pick a knife, cut the cake, blow out candles, and read a personal l
 No build step, no dependencies, no backend — the gift data travels inside the URL.
 
 ```bash
-git clone https://github.com/<your-username>/birthday-cake.git
+git clone https://github.com/InterestingAary/birthday-cake.git
 cd birthday-cake
 start index.html          # Windows
 open index.html           # macOS
