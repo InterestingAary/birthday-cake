@@ -27,8 +27,8 @@ No build step, no dependencies, no backend — the gift data travels inside the 
 ```bash
 git clone https://github.com/<your-username>/birthday-cake.git
 cd birthday-cake
-start birthday-cake.html    # Windows
-open birthday-cake.html     # macOS
+start index.html          # Windows
+open index.html           # macOS
 ```
 
 Host it anywhere (GitHub Pages, Netlify, Vercel, a USB stick) — the link works as long as the
@@ -49,14 +49,14 @@ own photo in:
 cp /path/to/your-photo.webp cat.webp    # keep the same name
 ```
 
-Or edit `birthday-cake.html` and point the `<img src="cat.webp">` tags at your own image.
+Or edit `index.html` and point the `<img src="cat.webp">` tags at your own image.
 Images are circular crops (`object-fit: cover`), so square photos crop best.
 
 ## 🧩 Project Structure
 
 ```
 birthday-cake/
-├── birthday-cake.html   # the entire experience (HTML + CSS + JS, ~60 KB)
+├── index.html           # the entire experience (HTML + CSS + JS, ~60 KB)
 ├── cat.webp             # the birthday cat
 └── README.md
 ```
