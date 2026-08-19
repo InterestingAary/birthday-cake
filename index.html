@@ -1240,7 +1240,8 @@
         $('#waBtn').addEventListener('click', () => this.shareVia('whatsapp'));
         $('#tgBtn').addEventListener('click', () => this.shareVia('telegram'));
         $('#previewBtn').addEventListener('click', () => {
-          location.href = $('#linkBox').value;
+          location.hash = encodeGift(this.gift);
+          location.reload();
         });
         $('#editBtn').addEventListener('click', () => this.goTo('create'));
       },
